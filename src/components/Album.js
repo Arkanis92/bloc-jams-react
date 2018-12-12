@@ -122,7 +122,7 @@ class Album extends Component {
   }
 
   formatTime(time) {
-    if ( time >= 0 && time === number ) {
+    if ( time >= 0 && !isNaN(parseFloat(time)) && isFinite(time) ) {
       const minutes = Math.floor( time / 60 );
       const seconds = Math.floor( time - minutes * 60 );
       return (minutes < 10 ? minutes : minutes) + ':' + (seconds < 10 ? '0' + seconds : seconds);
