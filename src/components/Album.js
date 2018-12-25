@@ -88,9 +88,9 @@ class Album extends Component {
       return <span className = 'icon ion-md-play' />;
     } else if ( this.state.currentSong === song && !this.state.isPlaying ) {
       return <span className = 'icon ion-md-play' />;
-    } else {
-      return index + 1;
     }
+
+    return index + 1;
   }
 
   handlePrevClick() {

@@ -1,0 +1,35 @@
+.App .first-header {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #001c80d1;
+  display: inline-block;
+}
+
+.App .first-header a {
+  text-decoration: none;
+}
+
+.App .title-logo {
+  padding-left: 2rem;
+  float: left;
+}
+
+.App .logo {
+  width: 10%;
+}
+
+.App .navigation-links {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: white;
+  float: right;
+  padding-right: 2rem;
+}
+
+.App::after {
+  clear: both;
+}
