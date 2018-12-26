@@ -1,0 +1,40 @@
+.library {
+  position: absolute;
+  padding: 0 1rem;
+  margin: auto;
+  top: 18%;
+  width: 85%;
+}
+
+.album-link {
+  position: relative;
+  display: inline-block;
+  margin: 2rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.album-link img {
+  width: 20rem;
+}
+
+.album-title {
+  font-weight: bold;
+  font-size: 115%;
+  margin: auto;
+  width: fit-content;
+  padding: .5rem .5rem;
+  color: white;
+}
+
+.album-artist {
+  margin: auto;
+  width: fit-content;
+  color: grey;
+}
+
+.album-length {
+  margin: auto;
+  width: fit-content;
+  color: grey;
+}

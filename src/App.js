@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="first-header">
-          <Link className='title-logo' to = '/'><img className = "logo" src = "./assets/images/bloc_jams_logo.png" /></Link>
+          <Link className='title-logo' to = '/'><img className = "logo" src = "./assets/images/bloc_jams_logo.png" alt = "bloc jams logo" /></Link>
           <nav>
             <Link className='navigation-links' to = '/library'>Library</Link>
           </nav>

@@ -5,7 +5,7 @@ const Landing = () => (
   <section className = 'Landing'>
     <section className = 'Center'>
       <h1 className = 'hero-title'>Turn the music up!</h1>
-      <img className = 'hero-image' src = "./assets/images/Music.jpg" />
+      <img className = 'hero-image' src = "./assets/images/Music.jpg" alt = "hero image" />
     </section>
     <section className = 'selling-points'>
       <div className = 'point-1'>
