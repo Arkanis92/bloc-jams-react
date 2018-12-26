@@ -1,3 +1,7 @@
+.App {
+  background-color: black;
+}
+
 .App .first-header {
   width: 100%;
   padding-top: 2rem;
@@ -16,7 +20,7 @@
 }
 
 .App .logo {
-  width: 10%;
+  width: 100%;
 }
 
 .App .navigation-links {
@@ -27,6 +31,7 @@
   letter-spacing: 0.2rem;
   color: white;
   float: right;
+  padding-top: 1.5rem;
   padding-right: 2rem;
 }
 
