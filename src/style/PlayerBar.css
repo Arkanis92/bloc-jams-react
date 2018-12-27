@@ -1,0 +1,148 @@
+#buttons {
+  text-align: center;
+}
+
+#previous {
+  margin-right: 1rem;
+  background-color: #454545;
+  border: 0;
+  color: white;
+}
+
+#previous:focus {
+  outline: none;
+}
+
+#play-pause {
+  margin-right: 1rem;
+  background-color: #454545;
+  border: 0;
+  color: white;
+}
+
+#play-pause:focus {
+  outline: none;
+}
+
+#next {
+  background-color: #454545;
+  border: 0;
+  color: white;
+}
+
+#next:focus {
+  outline: none;
+}
+
+#time-control {
+  display: flex;
+  padding-top: 2rem;
+  color: white;
+}
+
+.current-time {
+  align-self: flex-end;
+  margin-left: 10%;
+  margin-right: -10%;
+}
+
+.total-time {
+  align-self: flex-end;
+  margin-right: 10%;
+  margin-left: -10%;
+}
+
+.time-container {
+  width: 100%;
+  text-align: center;
+}
+
+.seek-bar-1 {
+  -webkit-appearance: none;
+  width: 75%;
+  height: 10px;
+  border-radius: 10px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.6;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.seek-bar-1:hover {
+  opacity: 1;
+}
+
+.seek-bar-1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 20px;
+  border-radius: 30%;
+  background: #4663a8;
+  cursor: pointer;
+}
+
+.seek-bar-1::-moz-range-thumb {
+  width: 10px;
+  height: 20px;
+  border-radius: 30%;
+  background: #4663a8;
+  cursor: pointer;
+}
+
+#volume-control {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.ion-md-volume-low {
+  align-self: flex-end;
+  margin-left: 43%;
+  margin-right: -43%;
+}
+
+.ion-md-volume-high {
+  align-self: flex-end;
+  margin-right: 43%;
+  margin-left: -43%;
+}
+
+.volume-container {
+  width: 100%;
+  text-align: center;
+}
+
+.seek-bar-2 {
+  -webkit-appearance: none;
+  width: 10%;
+  height: 5px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.6;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.seek-bar-2:hover {
+  opacity: 1;
+}
+
+.seek-bar-2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4663a8;
+  cursor: pointer;
+}
+
+.seek-bar-2::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4663a8;
+  cursor: pointer;
+}

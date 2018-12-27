@@ -1,0 +1,64 @@
+#album-info {
+  display: flex;
+  width: 80%;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+}
+
+#album-cover-art {
+  width: 30%;
+  height: 30%;
+}
+
+.album-details {
+  align-self: center;
+  padding-left: 2rem;
+  font-family: 'roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+#album-title {
+  font-size: 2.5rem;
+  color: white;
+  padding-bottom: 1rem;
+  font-weight: bolder;
+}
+
+.artist {
+  font-size: 2rem;
+  color: grey;
+  padding-bottom: 1rem;
+}
+
+#release-info {
+  font-size: 1rem;
+  color: grey;
+}
+
+#album-info::after {
+  clear: both;
+}
+
+.song-list {
+  position: relative;
+  width: 80%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: 'roboto', sans-serif;
+  margin-bottom: 3rem;
+}
+
+td {
+  border-bottom: 1px solid white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+tr:hover {
+  background-color: #535353;
+}
