@@ -13,6 +13,7 @@ class App extends Component {
           <Link className='title-logo' to = '/'><img className = "logo" src = "./assets/images/bloc_jams_logo.png" alt = "bloc jams logo" /></Link>
           <nav>
             <Link className='navigation-links' to = '/library'>Library</Link>
+            <Link className='navigation-links' to = '/'>Home</Link>
           </nav>
         </header>
         <main>
